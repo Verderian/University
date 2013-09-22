@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grep analog", "Grep analog\Grep analog.csproj", "{0FA9DD2F-DB2E-40A8-834A-51DDB4ACD3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grep simple", "Grep simple\Grep simple.csproj", "{2E8E7330-DB1E-4607-B535-F7726E26D5BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FA9DD2F-DB2E-40A8-834A-51DDB4ACD3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA9DD2F-DB2E-40A8-834A-51DDB4ACD3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA9DD2F-DB2E-40A8-834A-51DDB4ACD3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA9DD2F-DB2E-40A8-834A-51DDB4ACD3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8E7330-DB1E-4607-B535-F7726E26D5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8E7330-DB1E-4607-B535-F7726E26D5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8E7330-DB1E-4607-B535-F7726E26D5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8E7330-DB1E-4607-B535-F7726E26D5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
