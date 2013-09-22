@@ -14,7 +14,7 @@ namespace Grep_simple
                 string[] input = Console.ReadLine().Split(' ');
                 StreamReader str = new StreamReader(@input[2]);
                 //Переменная для фиксирования неудачного поиска
-                string check = "Не содержит данную подстроку\n";
+                string check = "It does not contain this string\n";
                 while (!str.EndOfStream)
                 {
                     string st = str.ReadLine();

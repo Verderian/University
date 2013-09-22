@@ -24,7 +24,7 @@ namespace Grep_analog
                     Console.WriteLine("\n");
                     if (input[0] == "grep")
                     {
-                        check = "Данная подстрока не найдена\n";
+                        check = "This substring is not found\n";
                         if (input.Length == 2)
                         {
                             foreach (string filename in Directory.GetFiles(@path))
@@ -54,7 +54,7 @@ namespace Grep_analog
                         }
                         else
                         {
-                            Console.WriteLine("Выбранный путь не существует");
+                            Console.WriteLine("The selected path does not exist");
                         }
                         Console.WriteLine(check);
                     }
@@ -80,7 +80,7 @@ namespace Grep_analog
                 }
                 catch
                 {
-                    Console.WriteLine("Ошибка при вводе");
+                    Console.WriteLine("Input error");
                 }
             }
         }
